@@ -1,0 +1,28 @@
+{
+  "name": "packet-sender",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongxuanlee/packet-sender.git"
+  },
+  "keywords": [
+    "raw_sorket",
+    "ip_packet"
+  ],
+  "author": "kino",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/hongxuanlee/packet-sender/issues"
+  },
+  "homepage": "https://github.com/hongxuanlee/packet-sender#readme",
+  "dev-dependencies": {
+    "mocha": "^3.5.0"
+  }
+}
